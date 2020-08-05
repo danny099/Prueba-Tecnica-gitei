@@ -43,7 +43,7 @@
 
 .main__container--cards {
   background: white;
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px 0px 0px;
 }
 
 .card {
@@ -95,6 +95,40 @@
 .card-img{
   width: 70%;
   margin-left: 13%;
+}
+
+.main__container--pagination {
+  background: white;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.main__container--pagination ul{
+  display: flex;
+  justify-content: center;
+}
+
+hr{
+  margin: 0px;
+  margin-left: 3%;
+  padding: 10px;
+  width: 93%;
+}
+
+.pagination{
+  padding-bottom: 50px;
+}
+
+.page-link{
+  border: none !important;
+  margin: 5px;
+  color: #061D49 !important;
+
+}
+
+.active-pagination {
+  color: #061D49 !important;
+  background-color: #A6B3FB;
+  border-radius: 200px;
 }
 
 .footer {
