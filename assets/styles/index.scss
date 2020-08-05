@@ -1,61 +1,62 @@
-@charset "UTF-8";
 /*Archivo scss las clases utilizadas estan basadas en la metodologia BEM Block Element Modifier*/
 /*variables*/
-.header {
-  background: #565A5D;
-}
+$blue-dark: #061D49;
+$gray: #565A5D;
+$blue-light: #00B5E2;
+$green-lemon: #39DB79;
 
+.header{
+  background: $gray;
+}
 /**
  * Inicio seccion navbar
  *
  * se modifican algunos de los valores por defecto que tiene boostrap para adaptarlo al mookup.
  */
 .navigation {
-  background: #061D49;
+  background: $blue-dark;
 }
 
-.container__navbar {
+.container__navbar{
   border-radius: 50px;
 }
 
-.container__navbar--items li {
+.container__navbar--items li{
   padding-right: 10px;
   padding-left: 10px;
 }
 
-.container__navbar--items a {
+.container__navbar--items a{
   padding-top: 14px;
   padding-bottom: 14px;
   padding-right: 20px !important;
   padding-left: 20px !important;
-  color: #061D49;
+  color: $blue-dark;
   border-radius: 5px;
 }
-
 .active {
-  background-color: #061D49;
+  background-color: $blue-dark;
   color: white !important;
 }
 
-.container__navbar--search {
+.container__navbar--search{
   border-radius: 50px;
   width: 300px !important;
 }
-
-.container__navbar--search:focus {
-  border: #061D49 !important;
-  border-color: #061d49;
-  box-shadow: 0 1px 1px rgba(6, 29, 73, 0.075) inset, 0 0 8px rgba(6, 29, 73, 0.6);
+.container__navbar--search:focus{
+  border: $blue-dark !important;
+  border-color: rgb(6, 29, 73);
+  box-shadow: 0 1px 1px rgba(6, 29, 73, 0.075)inset, 0 0 8px rgba(6,29,73,0.6);
 }
-
 /**
  * Inicio seccion main
  *
  * esta es la seccion mas larga en la cual la mayoria de modificaciones son a las cards de boostrap
  * dentro de la misma tambien se modifico la paginación
  */
+
 .main {
-  background: #00B5E2;
+  background: $blue-light;
 }
 
 .main__container--cards {
@@ -65,54 +66,54 @@
 
 .card {
   border-radius: 0px 0px 20px 20px;
-  -webkit-box-shadow: 10px 10px 18px -9px rgba(0, 0, 0, 0.39);
-  -moz-box-shadow: 10px 10px 18px -9px rgba(0, 0, 0, 0.39);
-  box-shadow: 10px 10px 18px -9px rgba(0, 0, 0, 0.39);
+  -webkit-box-shadow: 10px 10px 18px -9px rgba(0,0,0,0.39);
+  -moz-box-shadow: 10px 10px 18px -9px rgba(0,0,0,0.39);
+  box-shadow: 10px 10px 18px -9px rgba(0,0,0,0.39);
 }
 
-.card h2 {
-  color: #061D49 !important;
+.card h2{
+  color: $blue-dark !important;
   padding: 0px 15px 0px 30px;
   font-size: 25px;
   font-weight: bold;
 }
 
-.main__container--text {
-  color: #061D49 !important;
+.main__container--text{
+  color: $blue-dark !important;
   padding: 0px 30px 30px 30px;
   font-size: 13px;
 }
 
-.main__container--tittle {
-  color: #061D49 !important;
+.main__container--tittle{
+  color: $blue-dark !important;
   font-size: 14px !important;
   letter-spacing: 3px !important;
   padding: 0px 30px 0px 30px;
   margin-top: 10px;
 }
 
-.main__container--labels {
+.main__container--labels{
   margin-left: 30px;
 }
 
-.main__container--labels span {
+.main__container--labels span{
   background-color: #F8F9FA;
   border: 1px solid gray;
   border-radius: 20px;
   padding: 0px 10px 0px 10px;
   font-size: 10px;
+
 }
 
-.main__container--green {
-  background-color: #39DB79;
+.main__container--green{
+  background-color: $green-lemon;
   border-radius: 0px 0px 20px 20px;
 }
 
-.card-img {
+.card-img{
   width: 70%;
   margin-left: 13%;
 }
-
 /**
  * Inicio sub seccion paginacion
  */
@@ -121,49 +122,47 @@
   border-radius: 0px 0px 20px 20px;
 }
 
-.main__container--pagination ul {
+.main__container--pagination ul{
   display: flex;
   justify-content: center;
 }
 
-hr {
+hr{
   margin: 0px;
   margin-left: 3%;
   padding: 10px;
   width: 93%;
 }
 
-.pagination {
+.pagination{
   padding-bottom: 50px;
 }
 
-.page-link {
+.page-link{
   border: none !important;
   margin: 5px;
-  color: #061D49 !important;
+  color: $blue-dark !important;
+
 }
 
 .active-pagination {
-  color: #061D49 !important;
+  color: $blue-dark !important;
   background-color: #A6B3FB;
   border-radius: 200px;
 }
-
 /**
  * Inicio seccion footer
  *
  * pequeños cambios al footer para otorgarle colores
  */
 .footer {
-  background: #061D49;
+  background: $blue-dark;
 }
 
-.footer__details {
+.footer__details{
   color: white;
 }
 
-.footer__icons img {
+.footer__icons img{
   width: 20px;
 }
-
-/*# sourceMappingURL=index.css.map */
