@@ -1,4 +1,4 @@
- Contenidos educativos GITEI
+## Contenidos educativos GITEI
 
 prototipo web para hacer pruebas de usabilidad en diferentes dispositivos en la sección de: CONTENIDOS EDUCATIVOS.
 
