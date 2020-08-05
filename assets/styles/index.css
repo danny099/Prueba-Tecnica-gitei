@@ -55,22 +55,46 @@
 
 .card h2{
   color: #061D49 !important;
-  padding: 0px 30px 0px 30px;
+  padding: 0px 15px 0px 30px;
   font-size: 25px;
   font-weight: bold;
 }
 
-.card p{
+.main__container--text{
   color: #061D49 !important;
-  padding: 0px 30px 0px 30px;
+  padding: 0px 30px 30px 30px;
   font-size: 13px;
 }
 
-.card p:nth-child(1){
+.main__container--tittle{
   color: #061D49 !important;
+  font-size: 14px !important;
+  letter-spacing: 3px !important;
   padding: 0px 30px 0px 30px;
-  font-size: 16px;
-  letter-spacing: 3px;
+  margin-top: 10px;
+}
+
+.main__container--labels{
+  margin-left: 30px;
+}
+
+.main__container--labels span{
+  background-color: #F8F9FA;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 0px 10px 0px 10px;
+  font-size: 10px;
+
+}
+
+.main__container--green{
+  background-color: #39DB79;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.card-img{
+  width: 70%;
+  margin-left: 13%;
 }
 
 .footer {
